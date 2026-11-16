@@ -1,34 +1,35 @@
-:root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #172e32; background: #f5f5ef; }
+:root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #173e32; background: #DDECF1; }
 * { box-sizing: border-box; }
 body { margin: 0; line-height: 1.6; }
 main { max-width: 1040px; margin: auto; padding: 64px 32px 32px; }
 header { max-width: 730px; margin-bottom: 40px; }
-.eyebrow { color: #526562; font-size: .78rem; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
+.eyebrow { color: #355747; font-size: .78rem; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
 h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); line-height: 1.08; letter-spacing: -.055em; margin: 18px 0 24px; font-weight: 750; }
-h1 span { color: #287966; }
-.intro { font-size: 1.12rem; color: #526562; }
-.overview { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid #ccd5cc; border-bottom: 1px solid #ccd5cc; padding: 24px 0; margin-bottom: 48px; }
-.overview div { display: flex; flex-direction: column; padding-left: 28px; border-left: 1px solid #ccd5cc; }
+h1 span { color: #36735b; }
+.intro { font-size: 1.12rem; color: #355747; }
+.overview { background: #F3EEB6; display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid #a3c5af; border-bottom: 1px solid #a3c5af; padding: 24px 0; margin-bottom: 48px; }
+.overview div { display: flex; flex-direction: column; padding-left: 28px; border-left: 1px solid #a3c5af; }
 .overview div:first-child { padding-left: 0; border-left: 0; }
-.overview div > span:last-child { color: #526562; font-size: .9rem; }
+.overview div > span:last-child { color: #355747; font-size: .9rem; }
 .metric { font-size: clamp(1.6rem, 4vw, 2.25rem); font-weight: 650; letter-spacing: -.04em; }
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 16px; }
 h2 { font-size: 1.35rem; margin: 0; letter-spacing: -.025em; }
-.section-heading > span { color: #526562; font-size: .8rem; }
-table { border-collapse: collapse; width: 100%; background: #fff; border-top: 3px solid #287966; }
-th, td { padding: 18px 24px; border-bottom: 1px solid #e2e7e1; }
-th { font-size: .8rem; color: #526562; background: #edf1eb; text-align: left; font-weight: 600; }
-tbody th { background: transparent; font-size: 1rem; color: #172e32; }
-.state { display: block; font-size: .8rem; color: #526562; font-weight: 400; }
+.section-heading > span { color: #355747; font-size: .8rem; }
+table { border-collapse: collapse; width: 100%; background: #fff; border-top: 3px solid #36735b; }
+th, td { padding: 18px 24px; border-bottom: 1px solid #c5ddcd; }
+th { font-size: .8rem; color: #355747; background: #AED9C5; text-align: left; font-weight: 600; }
+tbody th { background: transparent; font-size: 1rem; color: #173e32; }
+.state { display: block; font-size: .8rem; color: #355747; font-weight: 400; }
 .number { text-align: right; font-variant-numeric: tabular-nums; }
 td.price { font-weight: 650; }
-tbody tr:hover { background: #f5f8f3; }
-.notes { margin-top: 40px; padding: 24px; background: #e9eee6; border-radius: 4px; }
+tbody tr:nth-child(even) { background: #e5f3eb; }
+tbody tr:hover { background: #d4eadd; }
+.notes { margin-top: 40px; padding: 24px; background: #F3EEB6; border-radius: 4px; }
 .notes h2 { font-size: 1.05rem; }
-.notes p { font-size: .9rem; color: #425753; }
-a { color: #185d4d; text-underline-offset: 3px; }
-a:focus-visible { outline: 3px solid #287966; outline-offset: 4px; }
-footer { margin-top: 32px; color: #526562; font-size: .75rem; max-width: 800px; }
+.notes p { font-size: .9rem; color: #355747; }
+a { color: #205b40; text-underline-offset: 3px; }
+a:focus-visible { outline: 3px solid #36735b; outline-offset: 4px; }
+footer { margin-top: 32px; color: #355747; font-size: .75rem; max-width: 800px; }
 [hidden] { display: none !important; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
 @media (max-width: 540px) {
